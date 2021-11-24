@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'ItalianBreakfast-Regular';
-    src: url(../dist/font/ItalianBreakfast-Regular.otf);
+    src: url(../font/ItalianBreakfast-Regular.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "LEMONMILK-Light";
-    src: url(./font/LEMONMILK-Light.otf);
+    src: url(../font/LEMONMILK-Light.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "LEMONMILK-Medium";
-    src: url(./font/LEMONMILK-Medium.otf);
+    src: url(../font/LEMONMILK-Medium.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 
 #content {
-    background-image: url(./img/pizza-background.jpg);
+    background-image: url(../img/pizza-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
