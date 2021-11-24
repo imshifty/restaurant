@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'ItalianBreakfast-Regular';
+    src: url(/dist/font/ItalianBreakfast-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LEMONMILK-Light";
+    src: url(/dist/font/LEMONMILK-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LEMONMILK-Medium";
+    src: url(/dist/font/LEMONMILK-Medium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#content {
+    background-image: url(/dist/img/pizza-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header {
+    font-family:'ItalianBreakfast-Regular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 1px dotted black;
+    font-size: 52px;
+    background-color: rgb(0, 0, 0, 0.80);
+}
+
+#tabs {
+    font-family:'LEMONMILK-Medium', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+    font-size: 22px;
+
+}
+
+#home {
+    font-family:'LEMONMILK-Medium', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0, 0.80);
+    color: white;
+    width: 85vh;
+    height: 55vh;
+    margin: 100px;
+    margin-right: 150px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 20px;   
+    font-size: 16px;
+}
+
+#home-header {
+    font-size: 26px;
+}
+
+#home-content {
+    font-family:'LEMONMILK-Light', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px;
+}
+
+#menu {
+    font-family:'LEMONMILK-Medium', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0, 0.80);
+    color: white;
+    width: 85vh;
+    height: 70vh;
+    margin: 50px;
+    margin-right: 150px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;   
+    font-size: 16px;
+}
+
+#menu-header {
+    font-size: 24px;
+}
+
+#menu-items {
+    width: 80vh;
+    height: 45vh;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 30px 0;
+}
+
+.menu-title {
+    width: 400px;
+    font-size: 18px;
+}
+
+.menu-description {
+    font-family:'LEMONMILK-Light', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    font-size: 14px;
+}
+
+.menu-cost {
+    margin-left: auto;
+    width: 50px;
+}
+
+#contact {
+    font-family:'LEMONMILK-Medium', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0, 0.80);
+    color: white;
+    width: 85vh;
+    height: 45vh;
+    margin: 100px;
+    margin-right: 150px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;   
+    font-size: 16px;
+}
+
+#contact-header {
+    font-size: 24px;
+}
+
+#contact-box {
+    margin: 30px 0px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: inline-block;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+@keyframes hover {
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+
+
